@@ -1,0 +1,406 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.navbar{
+  background-color: rgba(0,0,0,0.9);
+  position: sticky;
+  top: 0;
+
+}
+.margin{
+z-index: 1000;
+  position: absolute;
+  margin-right:60px;
+  margin-left:60px;
+}
+
+.left{
+float: left;
+}
+.left img{
+width: 300px;
+height: 300px;}
+p{
+color:white;
+font-size: 15px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+button,
+input,
+textarea {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+#home{
+  background-image: url('bg.png');
+}
+
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
+
+.grid-2 {
+  padding: 0 4rem;
+  padding-top: 6em;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  color: white;
+  margin-left: 60px;
+  margin-top:-50px;
+}
+
+
+/* Header */
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contain1{
+padding-top:150px;
+}
+.contain2{
+padding-top:60px;
+  margin-right:60px;
+margin-left:60px;
+}
+.contain3{
+padding-top:85px;
+}
+.contain4{
+padding-top:85px;
+}
+.links ul {
+  display: flex;
+  
+}
+
+.links a {
+  display: inline-block;
+  color: #cecbc8;
+  font-size: 16px;
+  text-transform: uppercse;
+  font-weight: 500;
+  line-height: 1;
+  transition: 0.3s;
+  margin-right: 60px;
+}
+
+.links a:hover {
+  cursor: pointer;
+  color: #214539;
+  font-weight:bold;
+}
+
+/* links1 */
+
+.links1 ul {
+  margin-left: 45px;
+  display: flex;
+margin-top:-30px;
+  
+}
+
+.links1 a {
+  display: inline-block;
+  color: #cecbc8;
+  font-size: 16px;
+  text-transform: uppercse;
+  font-weight: 500;
+  line-height: 1;
+  transition: 0.3s;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  padding: 0.9rem;
+}
+
+.links1 a:hover {
+  cursor: pointer;
+  color: #214539;
+  font-weight:bold;
+}
+.header-title {
+  font-size: 2.8rem;
+  line-height: 0.8;
+  color: white;
+  margin-left: 60px;
+}
+.header-title1 {
+  font-size: 1;
+  color: #214539;
+  font-family: Candara;
+}
+
+.header-content .text {
+  padding-top: 20px;
+  margin-left: 60px;
+  font-size: 20px;
+}
+
+.fa {
+  padding: 0.9rem 1.2rem;
+  text-decoration: none;
+  margin: 5px 5px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  cursor: pointer;
+  background-color: #214539;
+  color: white;
+  font-weight:bold;
+}
+
+.fa-facebook {
+  background: #1d1e1d;
+  color: white;
+  margin-left: 60px;
+}
+.fa-instagram {
+  background: #1d1e1d;
+  color: white;
+}
+
+.color {
+  color: #214539;
+}
+#home{
+  height: 600px;
+}
+
+
+
+
+#elementary{
+  height: 500px;
+}
+  input[type=checkbox].checkboxToggler {
+	display: none;
+}
+
+input[type=checkbox].checkboxToggler:checked ~ div div.newsbox {
+	height: 500px;
+	overflow-y: scroll;
+	overflow-x:hidden;
+	background-color: transparent;
+	padding: 10px; 
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+  z-index: 1000;
+  position: absolute;
+  width: 50%;
+  right: 0;
+  margin-right:60px;
+ 
+}
+input[type=checkbox].checkboxToggler:checked ~ div div.newsbox1 {
+	height: 500px;
+	overflow-y: scroll;
+	overflow-x:hidden;
+	background-color: transparent;
+	padding: 10px; 
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+  z-index: 1000;
+  position: absolute;
+  width: 50%;
+  right: 0;
+  margin-right:310px;
+ 
+}
+
+
+div.newsbox {
+	transition: 1s ease-in;
+	-moz-transition: 1s ease-in;
+	-webkit-transition: 1s ease-in;
+	padding: 0 10px;
+	overflow: hidden;
+	width: 500px;
+	font-size: 16px;
+	font-weight: normal;
+	font-family: "Poppins", sans-serif;
+	margin-top: -10px;
+  color:white;
+
+  
+  
+}
+
+div.newsbox1 {
+	transition: 1s ease-in;
+	-moz-transition: 1s ease-in;
+	-webkit-transition: 1s ease-in;
+	padding: 0 10px;
+	overflow: hidden;
+	width: 500px;
+	font-size: 16px;
+	font-weight: normal;
+	font-family: "Poppins", sans-serif;
+	margin-top: -30px;
+  color:white;
+
+  
+  
+}
+  .gtnm{
+  margin-bottom: -40px;
+  margin-left: 60px;
+  color: #cecbc8;
+  font-size: 20px;
+  color:white;
+  font-family: "Poppins", sans-serif;
+  }
+.gtnm1{
+margin-bottom: -20px;
+  margin-left: 611px;
+  color: #214539;
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  }
+
+  
+        /* ---------------- elemen -----------*/
+ 
+
+* {box-sizing: border-box}
+.mySlides1, .mySlides2, .mySlides3 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  position: absolute;
+  width: 500px;
+  height: 150px;
+  left: 0;
+  margin-left:60px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+
+.break{
+color:white;
+text-align: center;
+margin-top:150px;
+}
+.break1{
+color:white;
+text-align: center;
+margin-top:550px;
+}
+
+.break2{
+color:white;
+text-align: center;
+margin-top:650px;
+}
+
+.break3{
+color:white;
+text-align: center;
+margin-top:550px;
+}
+
+.break4{
+color:white;
+text-align: center;
+margin-top:100px;
+}
+
+.break5{
+color:white;
+text-align: center;
+margin-top:550px;
+}
+
+
+
+
+
+
+
+
+#contact{
+  display: flex;
+  flex-direction:column;
+  box-sizing: border-box;
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  padding: 20px;
+}
+.form{
+  display:flex;
+  flex-direction:column;
+  box-sizing: border-box;
+  align-items: center;
+  margin: 20px 0px;
+}
+.input{
+  width: 30%; 
+  border: none;
+  margin: 15px; 
+  padding: 12px;
+  outline: none;
+  border-radius: 15px;
+}
+#msg{
+  width: 20%; 
+  border: none;
+  margin: 15px; 
+  padding: 10px;
+  outline: none;
+  border-radius: 15px;
+}
+#send{
+  width: 10%; 
+  border: none;
+  margin: 40px; 
+  padding: 10px;
+  outline: none;
+  border-radius: 15px;
+}
+#send:hover{
+  cursor: pointer;
+  box-shadow: 0 0 10px white; 
+  border-radius: 15px;
+}
